@@ -7,6 +7,6 @@ Demonstration of asynchronous programming using Boost.Asio
 ```shell
 mkdir build && cd build
 conan install .. -of .
-cmake --preset conan-release .
-cmake --build build
+cmake --preset conan-release ..
+cmake --build .
 ```
